@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:padding="16dp"
+
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/productRowImage"
+        android:src="@drawable/cart"
+        android:layout_width="60dp"
+        android:layout_height="60dp"/>
+    <TextView
+        android:id="@+id/productRowName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/productRowImage"
+        android:layout_marginLeft="20dp"
+        android:text="Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops"
+        style="@style/TextAppearance.AppCompat.Title"/>
+    <TextView
+        android:id="@+id/productRowCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/productRowName"
+        android:layout_toRightOf="@id/productRowImage"
+        android:layout_marginLeft="20dp"
+        android:text="men's clothing"/>
+    <TextView
+        android:id="@+id/productRowRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/productRowName"
+        android:layout_toRightOf="@id/productRowCategory"
+        android:layout_marginLeft="20dp"
+        android:text="3.9★" />
+    <TextView
+        android:id="@+id/productRowPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/productRowName"
+        android:layout_toRightOf="@id/productRowRating"
+        android:layout_marginLeft="20dp"
+        android:text="109.95 $"
+        style="@style/TextAppearance.AppCompat"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>
